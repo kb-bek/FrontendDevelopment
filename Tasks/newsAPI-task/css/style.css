@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.upper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 150px;
+    height: auto;
+}
+
+.main-heading {
+    margin-left: 270px;
+}
+
+.search {
+    width: 200px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.search-btn {
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-right: 20px;
+    color: grey;
+}
+
+.nav {
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item:not(:last-child){
+    margin-right: 70px;
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: none;
+    color: brown;
+}
+
+.news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.new-card {
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 700px;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    box-shadow: 3px 3px 15px gray;
+}
+
+.new-link {
+    text-decoration: none;
+    color: black;
+}
+
+.new-img {
+    width: 100%;
+}
+
+.new-info {
+    margin-top: 20px;
+}
+
+
+.footer {
+    height: 125px;
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav {
+    margin-right: 55px;
+}
+
+.footer-logo {
+    margin-right: 25px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    line-height: 17px;
+    color: #787878;
+}
+
+.footer-nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav-item {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: #787878;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer-social-icon {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+}
+
+
+.footer-social-icon-twitter {
+    width: 18px;
+    height: 15px;
+    background-image: url('/img/twitter.svg');
+    
+}
+
+.footer-social-icon-in {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/linkedin.svg");
+    transform: translateY(-2px);
+}
+
+.footer-social-icon-mail {
+    width: 24px;
+    height: 18px;
+    background-image: url("../img/mail.svg");
+}

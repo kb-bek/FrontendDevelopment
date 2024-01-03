@@ -1,0 +1,19 @@
+// function changeStyleButton() {
+//     let element = document.getElementById("")
+// }
+
+
+function tours() {
+    document.getElementById("content").innerHTML = '<div style="display:flex; flex-wrap:wrap; margin-left: 100px; "><div style="width: 200px; margin:20px;""><img src="img/tour4.jpg" style="width:200px;"></div><div style="width: 200px; margin:20px;""><img src="img/tour2.jpg" style="width:200px;"></div><div style="width: 200px; margin:20px;""><img src="img/tour1.jpg" style="width:200px;"></div><div style="width: 200px; margin:20px;""><img src="img/tour5.jpg" style="width:200px;"></div><div style="width: 200px; margin:20px;""><img src="img/tour3.jpg" style="width:200px;"></div></div>'
+}
+
+
+function hotels() {
+    document.getElementById("content").innerHTML = '<div style="display:flex; flex-wrap:wrap; margin-left: 100px; "><div style="width: 200px; margin:20px;""><img src="img/futuro-hotel.jpg" style="width:200px;"><h3>Футуро Отель</h3> <span><strong>Адрес:</strong>ул. Удмуртская 13 ул. Хивинская 29, Бишкек 720000 Киргизия</span></div><div style="width: 200px; margin:20px;""><img src="img/hayat.jpg" style="width:200px;"><h3>Отель "Хаятт Ридженси Бишкек"</h3> <span><strong>Адрес:</strong>улица Абдрахманова, 191, Бишкек 720011 Киргизия</span></div><div style="width: 200px; margin:20px;""><img src="img/orion.jpg" style="width:200px;"><h3>Отель "Хаятт Ридженси Бишкек"</h3> <span><strong>Адрес:</strong>Erkindik Boulevard, 21, Бишкек 720000 Киргизия</span></div><div style="width: 200px; margin:20px;""><img src="img/sheraton.jpg" style="width:200px;"><h3>Шератон Бишкек</h3> <span><strong>Адрес:</strong>Ул. Киевская, 148Б, Бишкек 720000 Киргизия</span></div></div>'
+}
+
+
+function aboutUs() {
+    document.getElementById("content").innerHTML = '<div style="width:60%; margin-left: 220px; font-family:"Roboto"; "><h2 style="text-align: center;">О Нас</h2><p>Добро пожаловать в удивительный мир Киргизии, где величественные горы, яркие культурные традиции и гостеприимство ждут вас на каждом шагу! Наша тур-компания предлагает вам уникальную возможность окунуться в уникальные природные красоты и богатое наследие этой удивительной страны.<h3>О стране:</h3>Киргизия – это жемчужина Центральной Азии, олицетворение девственной природы и аутентичной культуры. Расположенная в самом сердце Тянь-Шаня, страна славится своими высокогорными пейзажами, кристально чистыми озерами и живописными долинами. Каждый любитель активного отдыха и природы найдет здесь что-то по своему вкусу.<h3>Предлагаемые туры:</h3><strong>Походы в горы:</strong>От легких прогулок до многодневных походов – наши туры предоставляют уникальную возможность исследовать Тянь-Шань, включая знаменитый горный массив Ала-Арча.<strong><br>Культурные туры:</strong>Погрузитесь в богатое культурное наследие Киргизии, посетив древние города, музеи, ярмарки и участвуя в традиционных киргизских праздниках.<strong><br>Экотуризм:</strong>Посетите национальные парки и заповедники, охраняемые природные территории, где вы сможете насладиться уникальной флорой и фауной.Конные походы:Почувствуйте дух степей, прокатившись на лошади в окружении живописных пейзажей.<h3>Почему выбрать нашу компанию:</h3><strong>Опытные гиды:</strong> Наши профессиональные гиды знают каждый уголок страны и сделают ваше путешествие незабываемым.<br><strong>Индивидуальный подход:</strong> Мы готовы адаптировать тур под ваши интересы и предпочтения.<br><strong>Безопасность:</strong> Ваше благополучие на первом месте. Мы предоставляем все необходимые меры безопасности для вашего комфортного отдыха.<br><br>Не упустите возможность погрузиться в уникальный мир Киргизии с нашей тур-компанией. Здесь вас ждут восхитительные приключения, яркие впечатления и гостеприимство, которое останется в вашей памяти навсегда. Приглашаем вас отправиться в незабываемое путешествие вместе с нами!</p></div>';
+}
+
