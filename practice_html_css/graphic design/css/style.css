@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.nav {
+    margin-left: 200px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.section-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: url('../img/bg-image-hero.jpg') center center no-repeat white;
+    background-size: cover;
+    opacity: 1;
+}
+.section-hero-info {
+    width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(82, 82, 82, 0.5)
+}
+
+.section-hero-heading {
+    margin: 0;
+    font-size: 58px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section-hero-description {
+    font-size: 20px;
+    color: white;
+}
+
